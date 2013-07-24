@@ -94,7 +94,7 @@ request enters a :app:`Pyramid` application through to the point that
    (such as when it raises :class:`~pyramid.httpexceptions.HTTPNotFound` or
    :class:`~pyramid.httpexceptions.HTTPForbidden`), the router catches the
    exception, and attaches it to the request as the ``exception`` attribute.
-   It then attempts to find a :term:`exception view` for the exception that
+   It then attempts to find an :term:`exception view` for the exception that
    was caught.  If it finds an exception view callable, that callable is
    called, and is presumed to generate a response.  If an :term:`exception
    view` that matches the exception cannot be found, the exception is
